@@ -1,0 +1,21 @@
+Update your `config.php` file!
+------------------------------
+
+<?php
+    return array(
+
+        ...
+        ...
+        ...
+
+        'plugins' => array(
+            'markdown',
+            'sitemap',
+            'admin', // <= Recommended to be installed
+            'pageview' // <= Activation
+        ),
+        'pageview_config' => array(
+            // Change to `false` if you want to remove the leading zero in counter
+            'leading_zero' => '000000'
+        )
+    );
